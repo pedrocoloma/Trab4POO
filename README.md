@@ -11,8 +11,8 @@ Pedro Felipe Coloma - 8936781<br />
 Usamos a IDE Netbeans 8.0.2 e Java 8.
 
 ### Síntese
-O programa é dividido em dois: Cliente e Servidor.
-O primeiro é encarregado de interargir com o cliente do supermercado, i.e. permie cadastrar/logar usuários, listar os produtos e realizar compras.
+O trabalho está dividido em dois programs: Cliente e Servidor.
+O primeiro é encarregado de interargir com o cliente do supermercado, i.e. permite cadastrar/logar usuários, listar os produtos e realizar compras.
 O segundo é encarregado de interagir com o administrador do servidor do supermercado. i.e. permite cadastrar/atualizar produtos, gerar relatórios, listar produtos e usuáros.
 
 ### Uso de arquivos externos
@@ -26,8 +26,8 @@ Usamos o padrão de Projeto Singleton no construtor da classe ServerAdm. Dessa f
 Cada vez que um usuário realiza login com sucesso, ele é inserido em uma *ArrayList* chamada *LoggedUsers* que fica no servidor. Cada vez que o usuário faz logout, ele é removido dessa lista.
 
 ### Leitura e escrita de arquivos.
-Com o intuito de otimizar os acessos a disco, optamos por criar duas listas do tipo *ArrayList* a partir dos arquivos CSV.
-As listas *productList*,  *userList* são inicializados no início do programa servidor a partir dos arquivos de registros. As alterações nos usuários e nos livros são salvas nos respectivos arquivos ao clicar na Tecla Q.
+Com o intuito de otimizar os acessos a disco, optamos por criar três listas do tipo *ArrayList* a partir dos arquivos CSV.
+As listas *productList*, *salesList*  *userList* são inicializados no início do programa servidor a partir dos arquivos de registros. As alterações nos usuários e nos livros são salvas nos respectivos arquivos ao clicar na Tecla Q.
 
 ### Relatório em PDF
 O administrador pode criar um relatório de vendas (Sales Report) em pdf. Para isso basta apertar a tecla Q no terminal do Servidor.

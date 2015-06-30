@@ -31,7 +31,7 @@ As listas *productList*, *salesList*  *userList* são inicializados no início d
 
 ### Relatório em PDF
 O administrador pode criar um relatório de vendas (Sales Report) em pdf. Para isso basta apertar a tecla Q no terminal do Servidor.
-Cada vez que uma venda é realizada, ela é automaticamente salva no *ArrayList* salesList e no arquivo sales.csv.
+Cada vez que uma venda é realizada, ela é automaticamente salva no *ArrayList* *salesList*, e quando o adminstrador clicar na tecla Q, no arquivo sales.csv.
 Quando o adminstrador manda salvar os relat´rorios (clicando a tecla Q) o arquivo SalesReport.pdf é gerado.
 O arquivo pdf é gerado usando o itextpdf-5.5.6.jar.
 
